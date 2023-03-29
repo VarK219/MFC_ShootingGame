@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BirdShootingGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdShootingGameDoc.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="BirdShootingGameView.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Bird.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BirdShootingGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdShootingGameDoc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BirdShootingGameView.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Bird.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BirdShootingGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\BirdShootingGame.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\cursor1.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Image\Cursor\aim.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="POINTER.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Image\Cursor\32x32_aim.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\image\cursor\cursor2.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Image\Cursor\64x64_aim.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Image\Cursor\lobby_cursor.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\Image\Cursor\lobby_click_cursor.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\image\cursor\cur00001.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\image\cursor\cur00002.cur">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BirdShootingGameDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\BirdShootingGame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\Cancle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Setting.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Stage_1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\On.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\Off.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Lobby.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\Play.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\Setting.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\White.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Aim\Aim.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Stage_01.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\RWhite.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\White_Test.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\RWhite_Test.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Stage_2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Stage_3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\Stage_4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\XOR_Blue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Blue_Test.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Blue_Test2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Blue_final.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Brown.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\lBrown.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\lWhite.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Green.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\lGreen.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Egle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\lEgle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\Red(Event).bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Value\LobbySound.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\lBlue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\rBlue.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\lRed.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\rBrown.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\rEgle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\rGreen.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Bird\rRed.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\GAME READY.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\GAME READY_TEXT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\GAME CLEAR_TEXT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Cursor\32x32_aim.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Cursor\64x64_Aim.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Cursor\lobby_aim.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\MainMenu.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\RE_Cancle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\Retry.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\GAME FAILE_TEXT.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\option.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\option_cancle.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Value\GameSound.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Value\ShootSound.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Value\ClickSound.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\game_option.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\game_pause.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\game ready_bg.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\loading_bg.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\failed_home.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\failed_exit.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\Button\failed_retry.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Image\BackGround\game_failed_bg.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Sound\Sound\BackGround\Lobby.mp3" />
+  </ItemGroup>
+</Project>

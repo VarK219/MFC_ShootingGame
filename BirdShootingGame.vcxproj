@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{C106FDAF-BD2E-41FF-A739-CE49FE149AB0}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+    <RootNamespace>BirdShootingGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Static</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>winMM.lib</AdditionalDependencies>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0412</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Bird.h" />
+    <ClInclude Include="BirdShootingGame.h" />
+    <ClInclude Include="BirdShootingGameDoc.h" />
+    <ClInclude Include="BirdShootingGameView.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bird.cpp" />
+    <ClCompile Include="BirdShootingGame.cpp" />
+    <ClCompile Include="BirdShootingGameDoc.cpp" />
+    <ClCompile Include="BirdShootingGameView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BirdShootingGame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="POINTER.cur" />
+    <None Include="res\BirdShootingGame.rc2" />
+    <None Include="res\cursor1.cur" />
+    <None Include="res\Image\Cursor\32x32_aim.cur" />
+    <None Include="res\Image\Cursor\64x64_aim.cur" />
+    <None Include="res\Image\Cursor\aim.cur" />
+    <None Include="res\image\cursor\cur00001.cur" />
+    <None Include="res\image\cursor\cur00002.cur" />
+    <None Include="res\image\cursor\cursor2.cur" />
+    <None Include="res\Image\Cursor\lobby_click_cursor.cur" />
+    <None Include="res\Image\Cursor\lobby_cursor.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\BirdShootingGame.ico" />
+    <Image Include="res\BirdShootingGameDoc.ico" />
+    <Image Include="res\Image\Aim\Aim.bmp" />
+    <Image Include="res\Image\BackGround\GAME CLEAR_TEXT.bmp" />
+    <Image Include="res\Image\BackGround\GAME FAILE_TEXT.bmp" />
+    <Image Include="res\Image\BackGround\GAME READY.bmp" />
+    <Image Include="res\Image\BackGround\game ready_bg.bmp" />
+    <Image Include="res\Image\BackGround\GAME READY_TEXT.bmp" />
+    <Image Include="res\Image\BackGround\game_failed_bg.bmp" />
+    <Image Include="res\Image\BackGround\loading_bg.bmp" />
+    <Image Include="res\Image\BackGround\Lobby.bmp" />
+    <Image Include="res\Image\BackGround\option.bmp" />
+    <Image Include="res\Image\BackGround\Setting.bmp" />
+    <Image Include="res\Image\BackGround\Stage_01.bmp" />
+    <Image Include="res\Image\BackGround\Stage_1.bmp" />
+    <Image Include="res\Image\BackGround\Stage_2.bmp" />
+    <Image Include="res\Image\BackGround\Stage_3.bmp" />
+    <Image Include="res\Image\BackGround\Stage_4.bmp" />
+    <Image Include="res\Image\Bird\Blue.bmp" />
+    <Image Include="res\Image\Bird\Blue_final.bmp" />
+    <Image Include="res\Image\Bird\Blue_Test.bmp" />
+    <Image Include="res\Image\Bird\Blue_Test2.bmp" />
+    <Image Include="res\Image\Bird\Brown.bmp" />
+    <Image Include="res\Image\Bird\Egle.bmp" />
+    <Image Include="res\Image\Bird\Green.bmp" />
+    <Image Include="res\Image\Bird\lBlue.bmp" />
+    <Image Include="res\Image\Bird\lBrown.bmp" />
+    <Image Include="res\Image\Bird\lEgle.bmp" />
+    <Image Include="res\Image\Bird\lGreen.bmp" />
+    <Image Include="res\Image\Bird\lRed.bmp" />
+    <Image Include="res\Image\Bird\lWhite.bmp" />
+    <Image Include="res\Image\Bird\rBlue.bmp" />
+    <Image Include="res\Image\Bird\rBrown.bmp" />
+    <Image Include="res\Image\Bird\Red(Event).bmp" />
+    <Image Include="res\Image\Bird\rEgle.bmp" />
+    <Image Include="res\Image\Bird\rGreen.bmp" />
+    <Image Include="res\Image\Bird\rRed.bmp" />
+    <Image Include="res\Image\Bird\RWhite.bmp" />
+    <Image Include="res\Image\Bird\RWhite_Test.bmp" />
+    <Image Include="res\Image\Bird\White.bmp" />
+    <Image Include="res\Image\Bird\White_Test.bmp" />
+    <Image Include="res\Image\Bird\XOR_Blue.bmp" />
+    <Image Include="res\Image\Button\Cancle.bmp" />
+    <Image Include="res\Image\Button\failed_exit.bmp" />
+    <Image Include="res\Image\Button\failed_home.bmp" />
+    <Image Include="res\Image\Button\failed_retry.bmp" />
+    <Image Include="res\Image\Button\game_option.bmp" />
+    <Image Include="res\Image\Button\game_pause.bmp" />
+    <Image Include="res\Image\Button\MainMenu.bmp" />
+    <Image Include="res\Image\Button\Off.bmp" />
+    <Image Include="res\Image\Button\On.bmp" />
+    <Image Include="res\Image\Button\option_cancle.bmp" />
+    <Image Include="res\Image\Button\Play.bmp" />
+    <Image Include="res\Image\Button\Retry.bmp" />
+    <Image Include="res\Image\Button\RE_Cancle.bmp" />
+    <Image Include="res\Image\Button\Setting.bmp" />
+    <Image Include="res\Image\Cursor\32x32_aim.bmp" />
+    <Image Include="res\Image\Cursor\64x64_Aim.bmp" />
+    <Image Include="res\Image\Cursor\lobby_aim.bmp" />
+    <Image Include="res\Image\Value\ClickSound.bmp" />
+    <Image Include="res\Image\Value\GameSound.bmp" />
+    <Image Include="res\Image\Value\LobbySound.bmp" />
+    <Image Include="res\Image\Value\ShootSound.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="res\Sound\Sound\BackGround\Lobby.mp3" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
